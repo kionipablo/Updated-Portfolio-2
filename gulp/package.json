@@ -1,0 +1,23 @@
+{
+  "name": "portobsb_portfolio",
+  "version": "1.0.0",
+  "description": "PortoBSB - Portfolio / vCard / Resume / CV Template / Blog",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp scss_watch"
+  },
+  "keywords": [
+    "cv",
+    "portfolio",
+    "vcard",
+    "personal"
+  ],
+  "author": "gurayyarar",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.4.0"
+  }
+}
