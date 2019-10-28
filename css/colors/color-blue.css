@@ -1,0 +1,74 @@
+body.color-blue #about .main-container .button-groups ul li a:hover {
+  background-color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #0078d4; }
+
+body.color-blue #resume .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-blue #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #0078d4; }
+
+body.color-blue #portfolio .filter .f_btn.active label {
+  color: #0078d4; }
+
+body.color-blue #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #0078d4; }
+
+body.color-blue #blog .main-container .card .card-body .image-area span {
+  background-color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #0078d4; }
+  body.color-blue #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #0078d4;
+  border-color: #0078d4; }
+
+body.color-blue header .links-area ul li.active a {
+  border-left-color: #0078d4; }
+
+body.color-blue .pages .sub-pages .section .main-container .main-desc b,
+body.color-blue .pages .sub-pages .section .main-container .main-desc strong {
+  color: #0078d4; }
+
+body.color-blue .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #0078d4; }
+
+body.color-blue .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #0078d4; }
+
+@media (max-width: 1023px) {
+  body.color-blue header .links-area ul li.active a {
+    border-bottom: 3px solid #0078d4; } }
