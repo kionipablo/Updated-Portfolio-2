@@ -1,0 +1,14 @@
+{
+  "name": "portobsb_portfolio",
+  "version": "1.0.0",
+  "description": "PortoBSB - Portfolio / vCard / Resume / CV Template / Blog",
+  "keywords": [
+    "cv",
+    "portfolio",
+    "vcard",
+    "personal"
+  ],
+  "author": "gurayyarar",
+  "dependencies": {},
+  "devDependencies": {}
+}
