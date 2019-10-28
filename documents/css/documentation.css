@@ -1,0 +1,104 @@
+﻿body * {
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 240px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto; }
+  header .title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #ccc;
+    color: #444; }
+  header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    header ul li a {
+      display: block;
+      padding: 10px 15px;
+      color: #444;
+      border-left: 3px solid transparent;
+      -moz-transition: .5s;
+      -o-transition: .5s;
+      -webkit-transition: .5s;
+      transition: .5s; }
+      header ul li a:hover {
+        text-decoration: none;
+        color: #444;
+        background-color: #e6e6e6;
+        border-left-color: #999; }
+      header ul li a:active, header ul li a:focus {
+        text-decoration: none;
+        color: #444; }
+    header ul li.active a {
+      text-decoration: none;
+      color: #444;
+      background-color: #e6e6e6;
+      border-left-color: #999; }
+
+section {
+  margin-left: 240px;
+  padding: 15px; }
+  section .go-to-demo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    color: #333; }
+    section .go-to-demo i {
+      margin-left: 6px;
+      position: relative;
+      top: 2px; }
+  section h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; }
+  section .content {
+    color: #666; }
+    section .content a {
+      color: #0078d4;
+      text-decoration: underline; }
+    section .content ul li {
+      line-height: 24px; }
+  section .jstree-default .jstree-node {
+    line-height: 28px; }
+
+.color-doc .item {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px; }
+  .color-doc .item span {
+    display: block; }
+    .color-doc .item span:first-child {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 10px; }
+  .color-doc .item.dark-theme {
+    background-color: #252d3a;
+    color: #fff; }
+  .color-doc .item.light-theme {
+    border: 1px solid #eee; }
+  .color-doc .item.color-blue {
+    background-color: #0078d4;
+    color: #fff; }
+  .color-doc .item.color-red {
+    background-color: #da4453;
+    color: #fff; }
+  .color-doc .item.color-yellow {
+    background-color: #f6b225;
+    color: #fff; }
+  .color-doc .item.color-green {
+    background-color: #009688;
+    color: #fff; }
+  .color-doc .item.color-purple {
+    background-color: #a7296a;
+    color: #fff; }
+

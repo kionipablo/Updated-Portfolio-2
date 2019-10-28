@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="sensitive">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentation | Sensitive Personal Portfolio</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,700" rel="stylesheet">
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/jstree/themes/default/style.min.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/documentation.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="title">Sensitive Personal Portfolio</div>
+        <ul>
+            <li>
+                <a href="#/">Introduction</a>
+            </li>
+            <li>
+                <a href="#/file-structure">File Structure</a>
+            </li>
+            <li>
+                <a href="#/sass">SASS</a>
+            </li>
+            <li>
+                <a href="#/grunt">Grunt</a>
+            </li>
+            <li>
+                <a href="#/gulp">Gulp</a>
+            </li>
+            <li>
+                <a href="#/dependencies">Dependencies</a>
+            </li>
+            <li>
+                <a href="#/plugins">Plugins</a>
+            </li>
+            <li>
+                <a href="#/colors">Colors</a>
+            </li>
+            <li>
+                <a href="#/javascript-options">Javascript Options</a>
+            </li>
+            <li>
+                <a href="#/browser-support">Browser Support</a>
+            </li>
+            <li>
+                <a href="#/changelogs">Changelogs</a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <h1 ng-bind="title"></h1>
+        <a href="../index.html" class="go-to-demo">Go to Demo<i class="glyphicon glyphicon-arrow-right"></i></a>
+        <div class="content" ng-view></div>
+    </section>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/angularjs/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="lib/jstree/jstree.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
