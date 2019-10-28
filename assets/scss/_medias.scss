@@ -1,0 +1,969 @@
+@media (min-width: 1024px) and (max-width: 1600px) {
+    #home {
+        background-position: 75% 10% !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .mfp-wrap.popup-box-inline {
+        .popup-box {
+            .content-area {
+                .title {
+                    font-size: 18px;
+                }
+
+                .category {
+                    font-size: 15px;
+                }
+
+                .content {
+                    * {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    header {
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        border: none !important;
+
+        &.open {
+            .btn-menu-toggle {
+                .line {
+                    background: none;
+
+                    &:before {
+                        top: 0;
+                        bottom: auto;
+                        @include transform(rotate(45deg));
+                    }
+
+                    &:after {
+                        top: auto;
+                        bottom: 0;
+                        @include transform(rotate(-45deg));
+                    }
+                }
+            }
+
+            .links-area {
+                opacity: 1;
+                visibility: visible;
+
+                ul {
+                    li {
+                        a {
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo-area {
+            padding: 7px 0;
+
+            &:after {
+                display: none;
+            }
+
+            .maximize {
+                font-weight: 600;
+                opacity: 1;
+                visibility: visible;
+                position: absolute;
+                left: 45px;
+                top: 8px;
+                font-size: 15px;
+            }
+
+            a {
+                width: calc(100% - 100px);
+                display: block;
+                text-align: left;
+                padding-left: 8px;
+                text-decoration: none;
+            }
+        }
+
+        .expand-area {
+            display: none;
+        }
+
+        .links-area {
+            position: absolute;
+            left: 0;
+            top: 50px;
+            margin-top: 0;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            text-align: center;
+            @include transition(all 0.3s ease 0s);
+
+            ul {
+                li {
+                    display: inline-block;
+
+                    a {
+                        display: inline-block;
+                        width: 48px;
+                        height: 48px;
+                        padding: 0;
+                        text-align: center;
+                        border-left: none;
+                        padding-left: 3px;
+
+                        .la {
+                            margin-top: 12px;
+                        }
+
+                        span {
+                            top: 11px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-menu-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            .line {
+                margin: -1px 0 0 -10px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 22px;
+                height: 2px;
+
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: -7px;
+                    width: 100%;
+                    height: 2px;
+                    @include transition(all 0.3s ease 0s);
+                }
+
+                &:after {
+                    top: auto;
+                    bottom: -7px;
+                }
+            }
+        }
+    }
+
+    .pages {
+        left: 0;
+        width: 100%;
+
+        .sub-pages {
+            margin: 50px 0 0 0;
+            height: calc(100% - 50px);
+            width: 100%;
+
+            .section {
+                height: 100%;
+                width: 100%;
+
+                .main-container {
+                    padding: 10px 16px 16px 16px;
+
+                    .content-group {
+                        margin-top: 30px !important;
+                    }
+
+                    .main-title {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    #home {
+        background-position: 75% 10% !important;
+
+        .center {
+            text-align: center;
+            padding: 0;
+
+            .vertical-middle {
+                vertical-align: bottom;
+                padding-bottom: 20px;
+
+                .title {
+                    line-height: 64px;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+
+    #about {
+        .main-container {
+            .clients-container {
+                margin-top: 10px !important;
+                margin-bottom: -10px;
+
+                .col {
+                    a {
+                        opacity: 1 !important;
+                    }
+                }
+            }
+
+            .service-container {
+                .card {
+                    margin-top: 15px;
+
+                    .card-body {
+                        .name {
+                            font-size: 18px !important;
+                        }
+
+                        .description {
+                            font-size: 15px !important;
+                        }
+
+                        .icon-area {
+                            .la {
+                                font-size: 52px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pricing-container {
+                .card {
+                    .card-header {
+                        .icon-area {
+                            .la {
+                                font-size: 52px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .fun-facts-container {
+                .card {
+                    margin-top: 15px;
+
+                    .card-body {
+                        .icon-area {
+                            .la {
+                                font-size: 52px !important;
+                            }
+                        }
+                    }
+
+                    .card-body {
+                        .text {
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+            }
+
+            .testimonials-container {
+                .card-header {
+                    padding: 0;
+                }
+
+                .card-footer {
+                    .title {
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #contacts {
+        .main-container {
+            .content-group {
+                .get-in-touch-container {
+                    ul {
+                        li {
+                            span {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .map {
+            margin-top: 30px !important;
+        }
+    }
+
+    #blog {
+        .main-container {
+            .card {
+                margin-top: 15px;
+
+                .card-body {
+                    .image-area {
+                        .date {
+                            font-size: 15px;
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                }
+
+                .card-footer {
+                    padding: 10px 12px !important;
+
+                    .name {
+                        font-size: 18px;
+                        @include three-dots-overflow();
+                    }
+
+                    .category {
+                        font-size: 15px;
+                        @include three-dots-overflow();
+                    }
+                }
+            }
+
+            .clearfix {
+                padding: 0 5px;
+
+                .col {
+                    padding-right: 8px;
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+
+    #portfolio {
+        .main-container {
+            padding-bottom: 0;
+
+            .col {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+
+            .filter {
+                margin-bottom: 5px;
+            }
+
+            .grid-items {
+                margin-left: -8px;
+                margin-right: -8px;
+
+                .card {
+                    margin-bottom: 15px;
+                    margin-top: 0;
+
+                    .card-footer {
+                        .name {
+                            font-size: 18px;
+                        }
+
+                        .category {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #resume {
+        .content-group {
+            .card {
+                margin-top: 15px !important;
+
+                .card-header {
+                    font-size: 18px !important;
+                }
+
+                .card-body,
+                .card-footer {
+                    font-size: 15px !important;
+                }
+            }
+
+            .personal-skills-container,
+            .coding-skills-container {
+                .label {
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 972px) and (max-width: 1023px) {
+    #blog {
+        .main-container {
+            .col {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+    .mfp-wrap.popup-box-inline {
+        .popup-box {
+            .content-area {
+                .title {
+                    font-size: 18px;
+                }
+
+                .category {
+                    font-size: 15px;
+                }
+
+                .content {
+                    * {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pages {
+        .sub-pages {
+            .section {
+                .main-container {
+                    padding: 10px 15px 15px 15px;
+
+                    .main-title {
+                        font-size: 64px !important;
+                        line-height: 64px;
+                    }
+
+                    .main-desc {
+                        margin-top: -20px;
+                    }
+
+                    .content-group {
+                        margin-top: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #contacts {
+        .main-container {
+            .main-title {
+                font-size: 54px;
+            }
+
+            .main-desc {
+                margin-top: -28px;
+            }
+
+            .content-group {
+                .get-in-touch-container {
+                    ul {
+                        li {
+                            span {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .map {
+            margin-top: 15px !important;
+        }
+    }
+
+    #blog {
+        .main-container {
+            .card {
+                margin-top: 15px;
+
+                .card-body {
+                    .image-area {
+                        .date {
+                            font-size: 15px;
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                }
+
+                .card-footer {
+                    padding: 10px 12px;
+
+                    .name {
+                        font-size: 18px;
+                        @include three-dots-overflow();
+                    }
+
+                    .category {
+                        font-size: 15px;
+                        @include three-dots-overflow();
+                    }
+                }
+            }
+
+            .clearfix {
+                padding: 0 5px;
+
+                .col {
+                    padding-right: 8px;
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+
+    #portfolio {
+        .main-container {
+            padding-bottom: 0;
+
+            .main-title {
+                font-size: 54px;
+            }
+
+            .main-desc {
+                margin-top: -28px;
+            }
+
+            .col {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+
+            .grid-items {
+                margin-left: -8px;
+                margin-right: -8px;
+
+                .card {
+                    margin-bottom: 15px;
+
+                    .card-footer {
+                        .name {
+                            font-size: 18px;
+                        }
+
+                        .category {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        .main-container {
+            .button-groups {
+                margin-top: 15px;
+
+                ul {
+                    li {
+                        margin: 0;
+
+                        &:first-child {
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+
+            .content-group {
+                .fun-facts-container {
+                    .card {
+                        margin-top: 15px;
+
+                        .card-body {
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+
+                        .card-body {
+                            .text {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .clients-container {
+                    margin-top: 0;
+
+                    .col {
+                        a {
+                            margin-top: 0;
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .testimonials-container {
+                    .card-header {
+                        padding: 0;
+                    }
+
+                    .card-footer {
+                        .title {
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+
+                .service-container {
+                    .card {
+                        margin-top: 15px;
+
+                        .card-body {
+                            .name {
+                                font-size: 18px;
+                            }
+
+                            .description {
+                                font-size: 15px;
+                            }
+
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pricing-container {
+                    .card {
+                        .card-header {
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #resume {
+        .content-group {
+            .card {
+                margin-top: 15px !important;
+
+                .card-header {
+                    font-size: 18px !important;
+                }
+
+                .card-body,
+                .card-footer {
+                    font-size: 15px !important;
+                }
+            }
+
+            .personal-skills-container,
+            .coding-skills-container {
+                .label {
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .mfp-wrap.popup-box-inline {
+        .popup-box {
+            .content-area {
+                .title {
+                    font-size: 18px;
+                }
+
+                .category {
+                    font-size: 15px;
+                }
+
+                .content {
+                    * {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pages {
+        .sub-pages {
+            .section {
+                .main-container {
+                    padding: 10px 15px 15px 15px;
+
+                    .main-title {
+                        font-size: 64px;
+                        line-height: 64px;
+                    }
+
+                    .main-desc {
+                        margin-top: -20px;
+                    }
+
+                    .content-group {
+                        margin-top: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #contacts {
+        .main-container {
+            .main-title {
+                font-size: 54px;
+            }
+
+            .main-desc {
+                margin-top: -28px;
+            }
+
+            .content-group {
+                .get-in-touch-container {
+                    ul {
+                        li {
+                            span {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .map {
+            margin-top: 15px !important;
+        }
+    }
+
+    #blog {
+        .main-container {
+            .card {
+                margin-top: 15px;
+
+                .card-body {
+                    .image-area {
+                        .date {
+                            font-size: 15px;
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                }
+
+                .card-footer {
+                    .name {
+                        font-size: 18px;
+                    }
+
+                    .category {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .clearfix {
+                padding: 0 5px;
+
+                .col {
+                    padding-right: 8px;
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+
+    #portfolio {
+        .main-container {
+            padding-bottom: 0;
+
+            .main-title {
+                font-size: 54px;
+            }
+
+            .main-desc {
+                margin-top: -28px;
+            }
+
+            .filter {
+                margin-bottom: -10px;
+            }
+
+            .grid-items {
+                .card {
+                    margin-top: 0;
+
+                    .card-footer {
+                        .name {
+                            font-size: 18px;
+                        }
+
+                        .category {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        .main-container {
+            .button-groups {
+                margin-top: 15px;
+
+                ul {
+                    li {
+                        margin: 0;
+
+                        &:first-child {
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+
+            .content-group {
+                .fun-facts-container {
+                    .card {
+                        margin-top: 15px;
+
+                        .card-body {
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+
+                        .card-body {
+                            .text {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .clients-container {
+                    margin-top: 0;
+
+                    .col {
+                        a {
+                            margin-top: 0;
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .testimonials-container {
+                    .card-header {
+                        padding: 0;
+                    }
+
+                    .card-footer {
+                        .title {
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+
+                .service-container {
+                    .card {
+                        margin-top: 15px;
+
+                        .card-body {
+                            .name {
+                                font-size: 18px;
+                            }
+
+                            .description {
+                                font-size: 15px;
+                            }
+
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pricing-container {
+                    .card {
+                        .card-header {
+                            .icon-area {
+                                .la {
+                                    font-size: 52px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #resume {
+        .content-group {
+            .card {
+                margin-top: 15px !important;
+
+                .card-header {
+                    font-size: 18px !important;
+                }
+
+                .card-body,
+                .card-footer {
+                    font-size: 15px !important;
+                }
+            }
+
+            .personal-skills-container,
+            .coding-skills-container {
+                .label {
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+}

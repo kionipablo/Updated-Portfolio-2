@@ -1,0 +1,59 @@
+#resume {
+    .main-container {
+        .content-group {
+            .education-container,
+            .experience-container {
+                .card {
+                    border: none;
+                    margin-top: 25px;
+                }
+
+                .card-header,
+                .card-footer {
+                    background-color: transparent;
+                    border: none;
+                }
+
+                .card-header {
+                    font-weight: 600;
+                    font-size: 16px;
+                    padding: 0;
+                }
+
+                .card-body {
+                    font-size: 12px;
+                    padding: 0 0 8px 0;
+                }
+
+                .card-footer {
+                    text-align: justify;
+                    font-size: 14px;
+                    padding: 0;
+                }
+            }
+
+            .coding-skills-container,
+            .personal-skills-container {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        margin-top: 16px;
+
+                        .label {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+
+                        .progress {
+                            height: 12px;
+                            @include border-radius(0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

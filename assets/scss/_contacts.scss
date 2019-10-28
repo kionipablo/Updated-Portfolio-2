@@ -1,0 +1,98 @@
+#contacts {
+    .map {
+        margin-top: 50px !important;
+        margin-bottom: -7px;
+
+        iframe {
+            width: 100%;
+            border: none;
+        }
+    }
+
+    .main-container {
+        .content-group {
+            .get-in-touch-container {
+                margin-top: 10px;
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        line-height: 36px;
+
+                        i {
+                            font-size: 28px;
+                            position: relative;
+                            top: 5px;
+                            margin-right: 6px;
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+
+                        a {
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .contact-form-container {
+                margin-top: 20px;
+
+                .form-group {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        top: 9px;
+                        right: 10px;
+                        font-size: 19px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        padding-right: 35px;
+                        @include border-radius(0);
+
+                        &:focus {
+                            @include box-shadow(none);
+                        }
+                    }
+
+                    .no-resize {
+                        resize: none;
+                    }
+                }
+
+                .button-area {
+                    text-align: right;
+
+                    .btn-submit {
+                        font-weight: bold;
+                        text-decoration: none;
+                        height: 45px;
+                        min-width: 45px;
+                        line-height: 43px;
+                        text-align: center;
+                        display: inline-block;
+                        padding: 0 25px;
+                        cursor: pointer;
+                        @include border-radius(50px);
+                        @include transition(.5s);
+
+                        i {
+                            font-size: 24px;
+                            margin-left: 6px;
+                            position: relative;
+                            top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,271 @@
+﻿$primary_color: #da4453;
+$class_name: "red";
+
+body {
+    &.color-#{$class_name} {
+        #about {
+            .main-container {
+                .button-groups {
+                    ul {
+                        li {
+                            a {
+                                &:hover {
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .content-group {
+                    .title {
+                        border-left: 3px solid $primary_color;
+                    }
+
+                    .service-container {
+                        .card {
+                            .card-body {
+                                .icon-area {
+                                    .la {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .pricing-container {
+                        .card {
+                            .card-header {
+                                .icon-area {
+                                    .la {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+
+                            .card-footer {
+                                a {
+                                    &:hover {
+                                        background-color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .fun-facts-container {
+                        .card {
+                            .card-body {
+                                .icon-area {
+                                    .la {
+                                        color: $primary_color;
+                                    }
+                                }
+
+                                .text {
+                                    b {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .testimonials-container {
+                        .owl-dots {
+                            .owl-dot {
+                                &.active {
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #resume {
+            .main-container {
+                .content-group {
+                    .title {
+                        border-left: 3px solid $primary_color;
+                    }
+
+                    .coding-skills-container,
+                    .personal-skills-container {
+                        ul {
+                            li {
+                                .progress {
+                                    .progress-bar {
+                                        background-color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #portfolio {
+            .filter {
+                .f_btn {
+                    &.active {
+                        label {
+                            color: $primary_color;
+                        }
+                    }
+                }
+            }
+
+            .main-container {
+                .grid-items {
+                    .card {
+                        .card-body {
+                            .image-area {
+                                span {
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #blog {
+            .main-container {
+                .card {
+                    .card-body {
+                        .image-area {
+                            span {
+                                background-color: $primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #contacts {
+            .main-container {
+                .content-group {
+                    .title {
+                        border-left: 3px solid $primary_color;
+                    }
+
+                    .get-in-touch-container {
+                        ul {
+                            li {
+                                i {
+                                    color: $primary_color;
+                                }
+
+                                span {
+                                    b {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contact-form-container {
+                        .form-group {
+                            .form-control {
+                                &:focus {
+                                    border-color: $primary_color;
+
+                                    + i {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+
+                        .button-area {
+                            .btn-submit {
+                                &:hover {
+                                    background-color: $primary_color;
+                                    border-color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        header {
+            .links-area {
+                ul {
+                    li {
+                        &.active {
+                            a {
+                                border-left-color: $primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .pages {
+            .sub-pages {
+                .section {
+                    .main-container {
+                        .main-desc {
+                            b,
+                            strong {
+                                color: $primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mfp-wrap {
+            &.popup-box-inline {
+                .popup-box {
+                    .btn-area {
+                        a {
+                            &:hover {
+                                background-color: $primary_color;
+                            }
+                        }
+                    }
+
+                    .content-area {
+                        .content {
+                            blockquote {
+                                border-left: 3px solid $primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        &.color-#{$class_name} {
+            header {
+                .links-area {
+                    ul {
+                        li {
+                            &.active {
+                                a {
+                                    border-bottom: 3px solid $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

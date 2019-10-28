@@ -1,0 +1,25 @@
+﻿@import "_bg-color-variables.scss";
+
+body {
+    &.bg-color {
+        #home {
+            background: $bg-color;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        &.bg-color {
+            #home {
+                .center {
+                    text-align: center;
+
+                    .vertical-middle {
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
