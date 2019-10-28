@@ -1,0 +1,23 @@
+{
+  "name": "portobsb_portfolio",
+  "version": "1.0.0",
+  "description": "PortoBSB - Portfolio / vCard / Resume / CV Template / Blog",
+  "scripts": {
+    "build": "grunt build",
+    "watch": "grunt watch"
+  },
+  "keywords": [
+    "cv",
+    "portfolio",
+    "vcard",
+    "personal"
+  ],
+  "author": "gurayyarar",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
